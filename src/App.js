@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import BlockFader from './components/BlockFader'
+// import BlockFader from './components/BlockFader'
+import PageFader from './components/PageFader'
 import './App.css';
 
 class App extends Component {
@@ -7,7 +8,8 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-intro">
-          <BlockFader />
+          {/* <BlockFader /> */}
+          <PageFader />
         </div>
       </div>
     );

@@ -1,0 +1,29 @@
+.PageFader {
+    display: flex;
+    flex-direction: column;
+}
+
+.PageFader button {
+    position: absolute;
+    width: 100%;
+    background-color: #222222;
+    color: white;
+    padding: 1rem;
+    z-index: 100;
+}
+
+.PageFader button:last-child {
+    bottom: 0;
+}
+
+.PageFader-Page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    margin: 5px
+}
